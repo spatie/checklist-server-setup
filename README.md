@@ -105,7 +105,7 @@ We often set up demo sites on `*.spatie.be`. The demo site may exist until the p
 **Configure the demo URL's DNS.** It should point to the new server.
 
 ```
-spatie-demo.spatie.be.		    3600 IN	A 123.4.5.6
+spatie-demo.spatie.be.  3600 IN A 123.4.5.6
 ```
 
 ## 6. Update the live site's DNS settings
@@ -115,6 +115,6 @@ Skip this step for now if you're setting up a server to replace an existing site
 Add an A record with the IP address of the new server, and a CNAME for the `www.`-version.
 
 ```
-spatie.be.		    3600 IN	A 123.4.5.6
-www.spatie.be.		3600 IN CNAME spatie.be.	
+spatie.be.      3600 IN A 123.4.5.6
+www.spatie.be.  3600 IN CNAME spatie.be.
 ```
