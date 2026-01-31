@@ -1,6 +1,3 @@
-
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/support-ukraine.svg?t=1" />](https://supportukrainenow.org)
-
 # A checklist for setting up a server
 
 This checklist is used whenever a server gets set up at [Spatie](https://spatie.be).
